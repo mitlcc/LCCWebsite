@@ -1,0 +1,143 @@
+{
+  "main": {
+    "name":"Latino Cultural Center",
+    "description":"The Latino Cultural Center (LCC) functions as the hub for Latino students and student organizations, as well as individual community members interested in learning more about Latino culture. The LCC is composed of two main parts, the business offices of the student organizations, and the lounge for academic and social activities. The purpose of the LCC is to provide a space for students to meet with study groups or to study individually, to socialize, and to hold cultural and social events hosted by the six member organizations and the LCC exec team. Some of our main events are described below.",
+
+    "image":"logo.png",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactMessage":"Have any questions, comments or wish to contact us? Email us at ",
+    "email": "lcc-exec@mit.edu",
+    "address":{
+      "street":"84 Massachusetts Ave",
+      "city":"Cambridge",
+      "state":"MA",
+      "zip": "02139"
+    },
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/groups/mitlatinoculturalcenter/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/mitlcc/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/MIT",
+        "className":"fa fa-twitter"
+      }
+    ],
+    "events": [
+      {
+        "name": "Cena A Las Seis",
+        "description": "Cena a las Seis, or \"Dinner at Six,\" is an annual LCC-orgnaized Family Weekend event where we bring MIT students and their families together for a semi-formal evening of Latino cuisine and student performances and presentations. The student groups that annually participate in the organization and execution of this event are the Latino Cultural Center, Latinos in Science and Engineering (MAES), LUCHA, Club Peru, Casino Rueda, Mujeres Latinas, and the MIT Chapter of the Society of Hispanic Professional Engineers.",
+        "media": "fa fa-glass fa-5x"
+      },
+      {
+        "name": "Gala Sabrosura",
+        "description": "Gala Sabrosura is the large celebratory event that concludes Mes Latino every year. Students dance the night away at this celebration of LatinX culture, with dance lessons provided by our own Casino Rueda as well as DJ-ing by members of our own community. Open to all of MIT campus, it is a night where you can forget about all the stress about MIT and just come eat good food and dance to the hottest latinX beats.",
+        "media": "fa fa-music fa-5x"
+      },
+      {
+        "name": "Festival de Las Americas",
+        "description": "The purpose of Festival is to promote Latino culture and food to the greater MIT community during Mes Latino. To participate in the activity, guests must walk around the festival and answer trivia questions about Latin America (which are posed by representatives from the different LCC groups). After answering at least three questions, guests can turn in their vouchers for delicious cultural food. At the same time, the exhibitor groups have the chance to promote Latino culture and their respective organizations to the wider MIT community.",
+        "media": "fa fa-flag fa-5x"
+      }
+    ],
+    "calendarSrc": "https://calendar.google.com/calendar/embed?src=latinoculturalcenter%40gmail.com&ctz=America%2FNew_York"
+  },
+  "exec": {
+    "description": "Meet our awesome executive board for the 2021-2022 school year!",
+    "team": [
+      {
+        "title": "President",
+        "name": "Pablo Alejo-Aguirre",
+        "bio": "Hi, I'm Pablo, and I'm a senior studying mechanical engineering with a focus on robotics. I love soccer, MARVEL, robots, education, and theater arts! Someday, I want a Shiba Inu puppy! :)",
+        "image": "pablo.jpg"
+      },
+      {
+        "title": "Vice President",
+        "name": "Isabella Salinas",
+        "bio": "Hey everyone! I'm Isa and I'm a junior in Biological Engineering with a concentration in immunology and cancer biology. I love to dance, cook, and explore new places around Boston in my free time. I naturally lead a busy life around campus but hope to travel the world someday!",
+        "image": "isabella.jpg"
+      },
+      {
+        "title": "Director of Operations",
+        "name": "Trinity Stallins",
+        "bio": "Hello! I'm Trinity and I'm a junior in urban planning and mechanical engineering. For some reason, I'm proud of the fact that the only numbers in my majors and minors are 1 and 2 (11, 2A, 12, 21G). My friends make fun of me for always being in meetings, but other than that, I like pretending I know how to play piano and bachata dancing.",
+        "image": "trinity.jpg"
+      },
+      {
+        "title": "Director of Latino Leaders Assembly",
+        "name": "Camila Miranda-Llovera",
+        "bio": "Hi! I'm Camila and I'm a junior studying computer science and cognitive sciences (6-9). This is my second year on the exec board and besides LCC, I'm involved with Dance Troupe and my sorority!",
+        "image": "camila.jpg"
+      },
+      {
+        "title": "Director of Finance",
+        "name": "Guillermo Vasquez",
+        "bio": "Howdy folks, I'm Memo, and I am a junior in Course 6, computer science and engineering. In the LCC, I am involved with SHPE and MAES, and I am excited to be part of the exec board for the LCC. In my free time, I enjoy playing Super Smash and Mario Party.",
+        "image": "memo.jpg"
+      },
+      {
+        "title": "Director of Sin Limite",
+        "name": "Juan Diaz",
+        "bio": "Hi, I'm Juan, and I'm a junior from Dallas, Texas studying course 6, computer science. I'm into music, play both guitar and bass and will listen to almost any music. I'm excited to be part of the LCC and help plan Sin Limite for the incoming frosh.",
+        "image": "juanD.jpg"
+      },
+      {
+        "title": "Director of External Affairs",
+        "name": "Jesus Rodriguez",
+        "bio": "Hi I'm Jesus, and I am a junior majoring in mechanical engineering (course 2) and minoring in management science (course 15-1). On campus, I am active in the Latinx community and am a member of SHPE and MAES. Additionally he I'm an undergraduate researcher with the MIT HAUS Group.",
+        "image": "jesus.jpeg"
+      },
+      {
+        "title": "Director of Publicity",
+        "name": "Luci Padilla",
+        "bio": "Hey guys! I'm Luci, and I am a junior majoring in biological engineering! I am super excited to be joining the LCC this year as the Director of Publicity. I enjoy spending my time hiking, running, and hanging out with friends :)",
+        "image": "luci.png"
+      },
+      {
+        "title": "Historian",
+        "name": "Marvin Zetina-Jimenez",
+        "bio": "Hi everyone! I'm Marvin, and I am a junior studying computer science (Course 6-3) with a minor in math (Course 18). I love being involved with the hispanic community on campus, so I am a part of SHPE, MAES, LUCHA, and of course, the LCC. I love meeting new people, so come through to the lounge and say hi!",
+        "image": "marvin.jpg"
+      }
+    ]
+  },
+  "orgs": [
+    {
+      "name": "Society of Hispanic Professional Engineers (SHPE)",
+      "link": "http://shpe.mit.edu/",
+      "image": "shpe.jpg"
+    },
+    {
+      "name": "Latinos in Science and Engineering (MAES)",
+      "link": "http://maes.mit.edu/",
+      "image": "maes.jpg"
+    },
+    {
+      "name": "Mujeres Latinas",
+      "link": "http://web.mit.edu/mujeres/www/",
+      "image": "mujeres.jpg"
+    },
+    {
+      "name": "Cuban American Student Association (CASA)",
+      "link": "",
+      "image": "casa.jpg"
+    },
+    {
+      "name": "LUCHA",
+      "link": "http://lucha.mit.edu/",
+      "image": "lucha.jpg"
+    },
+    {
+      "name": "Club Peru",
+      "link": "https://www.facebook.com/groups/128986567784886/",
+      "image": "clubPeru.jpg"
+    }
+  ]
+}
