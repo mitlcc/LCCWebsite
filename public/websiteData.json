@@ -54,15 +54,15 @@
     "team": [
       {
         "title": "President",
-        "name": "Pablo Alejo-Aguirre",
-        "bio": "Hi, I'm Pablo, and I'm a senior studying mechanical engineering with a focus on robotics. I love soccer, MARVEL, robots, education, and theater arts! Someday, I want a Shiba Inu puppy! :)",
-        "image": "pablo.jpg"
+        "name": "Isabella Salinas",
+        "bio": "Hey everyone! I'm Isa and I'm a senior in Biological Engineering with a concentration in immunology and cancer biology. I love to dance, cook, and explore new places around Boston in my free time. I naturally lead a busy life around campus but hope to travel the world someday!",
+        "image": "isabella.jpg"
       },
       {
         "title": "Vice President",
-        "name": "Isabella Salinas",
-        "bio": "Hey everyone! I'm Isa and I'm a junior in Biological Engineering with a concentration in immunology and cancer biology. I love to dance, cook, and explore new places around Boston in my free time. I naturally lead a busy life around campus but hope to travel the world someday!",
-        "image": "isabella.jpg"
+        "name": "Veronica Perdomo",
+        "bio": "Hi, I'm Veronica (she/her), a senior in Biological Engineering at MIT.",
+        "image": "veronica.jpg"
       },
       {
         "title": "Director of Operations",
