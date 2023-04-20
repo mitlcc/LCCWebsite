@@ -13,6 +13,7 @@
    e. Member Orgs Section
    f. Contact Section
    g. Footer
+   h. History Page
 
 ===================================================================== */
 
@@ -760,4 +761,39 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .social .btn i{
    margin-right: 15px;
+}
+
+/* ------------------------------------------------------------------ */
+/* h. History Page
+/* ------------------------------------------------------------------ */
+
+.history-page {
+   background-color: rgb(140, 108, 179);
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+
+.history-page h1 {
+   font: 50px 'opensans-bold', sans-serif;
+   color: rgb(255, 255, 255);
+   margin-bottom: 36px;
+   text-align: center;
+}
+
+.date {
+   /* font: 100rem 'opensans-bold', sans-serif; */
+   font-size: 50px !important;
+   top: -2rem !important;
+   color: rgb(212, 212, 212);
+}
+
+.history-img img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;}
+
+.sources {
+   font: 15px 'opensans-bold', sans-serif !important;
+   color: rgb(133, 133, 133);
 }
