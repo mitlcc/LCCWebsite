@@ -23,6 +23,8 @@
 
 body { background: #0f0f0f; }
 
+.text-gray { color: rgb(161, 161, 161)}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -839,7 +841,8 @@ footer .social-links li:first-child { margin-left: 0; }
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;}
+   width: 50%;
+}
 
 .sources {
    font: 15px 'opensans-bold', sans-serif !important;
@@ -870,8 +873,27 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-left: auto;
 }
 
+.history-question {
+   font: 2rem sans-serif;
+   color: #575757;
+   margin: 2rem 0 0 0;
+}
+
+.history-answer {
+   margin: 0 0 0 0;
+   padding: 0;
+}
+
 .history-video {
    width: 100%;
    height: 500px;
    border-radius: 3rem;
+}
+
+.img-left img {
+   float: left;
+   width: 40%;
+   border-radius: 2rem;
+   /* margin-right: 2rem; */
+   margin: 2rem 2rem 0 2rem;
 }
