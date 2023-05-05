@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import { navigate } from "@reach/router";
 
 import Timeline from "../Components/Timeline";
 
 class History extends Component {
   render() {
-    const video = (
+    const presidentVideo = (
       <iframe
         className="history-video"
         title="vid"
@@ -14,8 +15,24 @@ class History extends Component {
       ></iframe>
     );
 
+    const backArrow = (
+      <div onClick={() => navigate("/")}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="back-arrow"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fillRule="evenodd"
+            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"
+          />
+        </svg>
+      </div>
+    );
+
     return (
       <section className="history-page">
+        {backArrow}
         <h1 className="history-title">LCC History</h1>
         <article className="history-about">
           <section className="history-card">
@@ -34,7 +51,7 @@ class History extends Component {
             <h3>Presidential Welcome</h3>
             To kick things off, here's a video interviewing the current 22-23
             LCC president, Isabella Salinas.
-            {video}
+            {presidentVideo}
           </section>
 
           <section className="history-card">

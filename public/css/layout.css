@@ -768,45 +768,9 @@ footer .social-links li:first-child { margin-left: 0; }
 /* ------------------------------------------------------------------ */
 /* h. History Page
 /* ------------------------------------------------------------------ */
-
-.history-page {
-   background-color: rgb(140, 108, 179);
-   padding-top: 90px;
-   padding-bottom: 60px;
-}
-
-.history-page h1 {
-   font: 50px 'opensans-bold', sans-serif;
-   color: rgb(255, 255, 255);
-   margin-bottom: 36px;
-   text-align: center;
-}
-
-.date {
-   /* font: 100rem 'opensans-bold', sans-serif; */
-   font-size: 50px !important;
-   top: -2rem !important;
-   color: rgb(212, 212, 212);
-}
-
-.history-img img {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   width: 50%;}
-
-.sources {
-   font: 15px 'opensans-bold', sans-serif !important;
-   color: rgb(133, 133, 133);
-}
-
-/* ------------------------------------------------------------------ */
-/* h. History Page
-/* ------------------------------------------------------------------ */
-
 .history-page {
    background-color: rgb(85, 85, 203);
-   padding-top: 90px;
+   padding-top: 20px;
    padding-bottom: 60px;
 }
 
@@ -896,6 +860,17 @@ footer .social-links li:first-child { margin-left: 0; }
    float: left;
    width: 40%;
    border-radius: 2rem;
-   /* margin-right: 2rem; */
-   margin: 2rem 2rem 0 2rem;
+   margin: 2rem 2rem 0;
+}
+
+.back-arrow {
+   width: 5rem;
+   height: 5rem;
+   fill: gainsboro;
+   margin-left: 10px;
+}
+
+.back-arrow:hover {
+   cursor: pointer;
+   fill: rgb(168, 168, 168);
 }
