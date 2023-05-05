@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "@reach/router";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
@@ -43,6 +44,10 @@ class Header extends Component {
               <a className="smoothscroll" href="#member-orgs">
                 Member Organizations
               </a>
+            </li>
+
+            <li>
+              <Link to="/history">History</Link>
             </li>
 
             <li>
