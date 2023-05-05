@@ -863,6 +863,7 @@ footer .social-links li:first-child { margin-left: 0; }
    padding: 1rem 2rem;
    margin: 1rem 0;
    border-radius: 3rem;
+   padding-top: 2rem ;
 }
 
 .history-card > i {
@@ -870,8 +871,8 @@ footer .social-links li:first-child { margin-left: 0; }
    text-align: right;
    display: block;
    margin-top: 1em;
-   width: 50%;
    margin-left: auto;
+   width: 50%;
 }
 
 .history-question {
