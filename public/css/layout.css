@@ -842,6 +842,7 @@ footer .social-links li:first-child { margin-left: 0; }
    margin-left: auto;
    margin-right: auto;
    width: 50%;
+   border-radius: 1rem;
 }
 
 .sources {
