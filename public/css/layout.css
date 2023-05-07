@@ -818,16 +818,16 @@ footer .social-links li:first-child { margin-left: 0; }
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin: 0 20%;
+   margin: 0 15%;
 }
 
 .history-card {
    color: #000;
    background-color: whitesmoke;
-   padding: 1rem 2rem;
-   margin: 1rem 0;
+   padding: 2rem 2rem 1rem;
+   margin: 1rem;
    border-radius: 3rem;
-   padding-top: 2rem ;
+   width: 100%;
 }
 
 .history-card > i {
@@ -863,6 +863,13 @@ footer .social-links li:first-child { margin-left: 0; }
    margin: 2rem 2rem 0;
 }
 
+.img-right img {
+   float: right;
+   width: 40%;
+   border-radius: 2rem;
+   margin: 2rem 2rem 0;
+}
+
 .back-arrow {
    width: 5rem;
    height: 5rem;
@@ -873,4 +880,8 @@ footer .social-links li:first-child { margin-left: 0; }
 .back-arrow:hover {
    cursor: pointer;
    fill: rgb(168, 168, 168);
+}
+
+.interviewee {
+   margin-bottom: 5rem;
 }

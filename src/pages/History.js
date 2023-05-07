@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { navigate } from "@reach/router";
+import { Fade, LightSpeed } from "react-reveal";
 
 import Timeline from "../Components/Timeline";
 
@@ -33,31 +34,38 @@ class History extends Component {
     return (
       <section className="history-page">
         {backArrow}
-        <h1 className="history-title">LCC History</h1>
+        <LightSpeed left>
+          <h1 className="history-title">LCC History</h1>
+        </LightSpeed>
         <article className="history-about">
-          <section className="history-card">
-            <h3>Overview</h3>
-            Currently, the Latino Cultural Center oversees 8 clubs: Casino
-            Rueda, Cuban-American Student Association (CASA), Club Peru, Latin
-            Dance Club (LDC), Latinos in Engineering and Science (MAES), La
-            Union Chicana por Aztlán (LUChA), Mujeres Latinas, Society of
-            Hispanic Professional Engineers (SHPE) It's history and history of
-            Latin American/Hispanic students and clubs in general has now been
-            researched, documented, and presented here on the LCC's website,
-            <i>Created by Piero Orderique | MIT '24</i>
-          </section>
+          <Fade duration={1000}>
+            <section className="history-card">
+              <h3>Overview</h3>
+              Currently, the Latino Cultural Center oversees 8 clubs: Casino
+              Rueda, Cuban-American Student Association (CASA), Club Peru, Latin
+              Dance Club (LDC), Latinos in Engineering and Science (MAES), La
+              Union Chicana por Aztlán (LUChA), Mujeres Latinas, Society of
+              Hispanic Professional Engineers (SHPE) It's history and history of
+              Latin American/Hispanic students and clubs in general has now been
+              researched, documented, and presented here on the LCC's website.
+              <i>Created by Piero Orderique | MIT '24</i>
+            </section>
+          </Fade>
 
-          <section className="history-card">
-            <h3>Presidential Welcome</h3>
-            To kick things off, here's a video interviewing the current 22-23
-            LCC president, Isabella Salinas.
-            {presidentVideo}
-          </section>
+          <Fade duration={1000}>
+            <section className="history-card">
+              <h3>Presidential Welcome</h3>
+              To kick things off, here's a video interviewing the current 22-23
+              LCC president, Isabella Salinas.
+              {presidentVideo}
+              <i>Recorded Spring 2023</i>
+            </section>
+          </Fade>
 
           <section className="history-card">
             <h3>Alumni Interviews</h3>
 
-            <article>
+            <article className="interviewee">
               <h4 className="text-center">Luisa Apolaya</h4>
               <h5 className="text-center text-gray">
                 2018 Club Peru President
@@ -120,6 +128,67 @@ class History extends Component {
                     during COVID 19. (Also off the record, I was part of the
                     group that organized the Latine hackathon in Lobby 7, fun
                     times 😁😁😁)
+                  </p>
+                </div>
+              </section>
+            </article>
+
+            <article className="interviewee">
+              <h4 className="text-center">Vitoria Moreno-Costa</h4>
+              <h5 className="text-center text-gray">2017 SHPE President</h5>
+              <section className="img-right">
+                <img src="images/history/vitoria.jpg" alt="Vitoria" />
+              </section>
+              <section>
+                <div>
+                  <p className="history-question">About Vitoria</p>
+                  <p className="history-answer">
+                    My name is Vitoria, and I was at MIT from 2014 to 2018. I am
+                    originally from Houston, Texas. I participated in WISE and
+                    Interphase and those things for me were important to have a
+                    community at MIT. Even today, the people I keep in touch
+                    with the most are from Interphase - those are my besties for
+                    life.
+                  </p>
+                </div>
+                <div>
+                  <p className="history-question">
+                    How did you get involved in SHPE?
+                  </p>
+                  <p className="history-answer">
+                    Back then, I was one of the peope that showed up to every
+                    event. To be honest, I started going because I first heard
+                    about the Brazilian food, and I'm half Brazilian. I decided
+                    to run for exec positions out of responsibility - I got so
+                    much out of it like opportunities, going to the conference,
+                    and even the scholarship and I felt like I needed to give
+                    back. I started as Secretary and then ran for to be
+                    President. I really enjoyed my team on the exec board. The
+                    club has always performed very successfully and gotten lots
+                    of funding support and sponsorships. The team was a well
+                    oiled machine. Our exec team was very close and we got to go
+                    to Fogo and even Cape Cod! I still keep up with them every
+                    now and then and occasionally chat with the vice president
+                    of the time.
+                  </p>
+                </div>
+                <div>
+                  <p className="history-question">
+                    Do you have any advice for incoming students?
+                  </p>
+                  <p className="history-answer">
+                    I really enjoyed my time at MIT and doing Interphase. I'd
+                    say if you have a chance to do that you should go for it,
+                    it's a really good opportunity. You just have to find your
+                    own beat! It is good to get invovled with clubs like SHPE
+                    earlier on, especially Freshman or sophomore year, because
+                    there are lots of opportunities at companies and getting
+                    help with you resume is important. I interview students who
+                    apply to MIT and one thing I always tell them that there are
+                    so many opportunities at MIT, even within the LCC, and a lot
+                    of people feel this pressure to really take advantage of
+                    everything and it's simply not possible. You may not feel
+                    like you are doing a lot, but you are.
                   </p>
                 </div>
               </section>
